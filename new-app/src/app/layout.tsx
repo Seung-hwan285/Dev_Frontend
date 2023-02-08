@@ -1,5 +1,5 @@
-import './globals.css';
-import React from 'react';
+import './globals.css'
+import React from 'react'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   // fds
@@ -12,5 +12,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head />
       <body>{children}</body>
     </html>
-  );
+  )
 }
