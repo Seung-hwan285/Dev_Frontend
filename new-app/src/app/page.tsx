@@ -1,11 +1,11 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
-import React from 'react'
+import Image from 'next/image';
+import { Inter } from '@next/font/google';
+import styles from './page.module.css';
+import React from 'react';
 
 // [x] 린트,프리티어 설정 완료
 // [ ] husk 설정
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
@@ -72,5 +72,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
