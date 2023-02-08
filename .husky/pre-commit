@@ -7,10 +7,10 @@ echo 'please be patient, this may take a while...'
 # Check ESLint Standards
 yarn lint ||
 (
-    echo '🔨❌ Yoo, you have a problem in your code. Check linter 🔨❌
-          Run yarn lint, add changes and try commit again.';
+    echo '🔨❌ 코드에 문제가 있습니다. linter 확인 🔨❌ yarn lint 실행, 변경 사항 추가 및 다시 커밋 시도.';
     false;
 )
+
 
 echo '🎉 No error found: committing this now.... ✨🚀🏄‍♂️🍻'
 
